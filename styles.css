@@ -1,0 +1,41 @@
+.form-container {
+  display: block;
+  grid-template-columns: calc(100% - 60%) auto;
+  z-index: 1;
+  position: absolute;
+}
+
+body {
+  overflow: hidden;
+}
+
+.image-side {
+  z-index: 0;
+}
+
+.login-picture {
+  max-height: 250%;
+  max-width: 250%;
+  position: absolute;
+  object-fit: cover;
+  filter: blur(0);
+}
+
+h1 {
+  z-index: 1;
+  position: relative;
+}
+
+.form-container > h1 {
+  text-align: center;
+  position: relative;
+}
+
+.form-container > p {
+  text-align: center;
+  position: relative;
+}
+
+.form-container > .form-section {
+  text-align: center;
+}
